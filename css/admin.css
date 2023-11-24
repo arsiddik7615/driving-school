@@ -1,0 +1,23 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../image/login.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.loginform
+{
+    background-color: #ffffff;
+    width: 30%;
+    height:auto;
+    margin: 7% auto;
+    padding: 25px 10px;
+
+
+}

@@ -1,0 +1,1795 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 13px;
+    margin-left: 0px;
+}
+
+
+/* =============Header Section Css Start===================== */
+.top_heading{
+    background-color: #2C191E;
+    color: #FFFFFF;
+    padding: 12px 12px;
+  
+}
+.heading_info{
+    float: left;
+}
+.social_media{
+  float: right;
+}
+.social_media span a{
+    margin-left: 10px;
+    color:#F6F6F6;
+}
+.social_media span a:hover{
+    
+    color:#FEE100;
+}
+.logo{
+    height: 100px;    
+    text-align: center;
+    background-color: #FEE100;
+    text-align: center;
+}
+.logo img{
+    margin: 25px 0px;
+} 
+
+.nav{
+    height: 100px;  
+    float: right;
+
+}
+.nav ul{
+    margin-top: 15px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav ul li a{
+    color: var(--text-color-01, #141C21);
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.action_section{
+    display: inline-flex;
+    padding: 18px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: var(--main-color-01, #FEE100);
+}
+.search{
+   color: var(--text-color-01, #141C21);
+font-family: Font Awesome 5 Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 100% */
+text-transform: uppercase;
+margin-left: 70px;
+
+
+}
+.menu_bar{
+    margin-right: 35px;
+    margin-left: 5px;
+}
+.nav ul button{
+    margin-right: 50px;
+}
+.header_button{
+    padding: 18px 35px;
+    background-color: #FBDF00;
+}
+
+
+
+/* =============Header Section Css End===================== */
+
+
+
+
+
+
+
+/* =============Banner Section Css Start===================== */
+
+
+.banner_img img{
+    width: 100%;
+
+}
+.banner_content{
+    background-color: #2C191E;
+    color: white;
+}
+.banner_content1{
+    display: flex;
+    padding:40px 0px ;
+   
+   
+}
+
+.banner_content1 i{
+    
+    color: #FBDF00;
+    background-color: black;
+    padding: 15px;
+    float: left;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0px 11px;
+}
+    
+
+.banner_content_description h5{
+    font-weight: 400px;
+    font-size: 20px;    
+}
+.banner_content_description p{
+    font-weight: 400px;
+    font-size: 14px;    
+}
+
+/* =============Banner Section Css End===================== */
+
+
+
+
+/* =============About Section Css Start===================== */
+.about{
+    margin: 120px 68px;
+
+}
+.number1{
+    display: flex;
+}
+.number1 h6{
+    padding: 6px 15px;
+    border-radius: 20px;
+    background-color: #FEE100;
+    font-size: 20px;
+
+   
+}
+
+.about_content1 h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.about_content1 h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px; 
+}
+.about_content1 p{
+    color: #3D3D3D;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.about_content2{
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.about_button button{
+    display: inline-flex;
+    padding: 18px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #FBDF00;
+}
+.facility1{
+    display: flex;
+}
+.facility1 h6{
+    color:#141C21;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 40px;
+}
+.about_margin{
+    width: 1px;
+    height: 60px;
+    background: #D9D9D9;
+}
+.facility2{
+    display: flex;
+}
+.facility2 h6{
+    
+    color:  #141C21;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 40px;
+
+}
+.about_ceo{
+    display: flex;
+}
+.about_ceo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.about_ceo h4{
+    color:  #141C21;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 15px;
+
+}
+.about_ceo h6{
+    color: #8B8B8B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 15px;
+
+}
+.found_exp{
+    margin-top: 120px;
+}
+.founded h3{
+    color: #141C21;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.founded p{
+    width: 470px;
+    height: 55px;
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.founded button{
+    display: inline-flex;
+    padding: 18px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid var(--text-color-04, #D1D1D1);
+}
+
+.exp_margin_head{
+    width: 1px;
+    height: 226px;
+}
+.exp_margin{
+    width: 1px;
+    height: 226px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 52.6%, rgba(0, 0, 0, 0.00) 100%);
+}
+.experience{
+    display: flex;
+}
+
+
+/* =============About Section Css End===================== */
+
+
+
+
+/* =============Service Section Css Start===================== */
+.service{
+    background-color: #F8F8F8;
+    padding-top: 40px;
+}
+
+.service_item{
+   margin-top: 60px;
+   margin-bottom: 110px;
+}
+.service_heading {
+    text-align: center;
+}
+.number2{
+    display: flex;
+    justify-content: center;
+}
+.number2 h6{
+    padding: 6px 15px;
+    border-radius: 20px;
+    background-color: #FEE100;
+    font-size: 20px;
+}
+.number2 p{
+    text-align: center;
+    color: #3D3D3D;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.service_img{
+  
+}
+.service_img img{
+
+}
+.service_content{
+    padding: 10px 10px;
+    
+  
+}
+.service_content h5{
+    color: #141C21;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px; 
+    
+}
+.service_content p{
+    color:  #3D3D3D;
+    width: 290px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.service_content hr{
+    padding-right: 40px;
+}
+.service_session{
+    padding: 10px 10px;
+}
+.service_session h5{
+    color:  #141C21;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+.service_session p{
+    color:  #3D3D3D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.ssborder{
+    width: 46%;
+    border-right: 1px solid black;
+    margin-right: 13px;
+}
+
+.view_course_button{
+    color: var(--text-color-01, #141C21);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0px;
+    height: 60px;
+    background-color: #FEE100;
+}
+
+
+.driving_skill{
+    
+    background: var(--text-color-01, #141C21);
+}
+.driving_skill_img img{
+    margin-top: 180px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+   
+}
+
+.driving_skill_content{
+    margin-top: 180px;
+    margin-bottom: 120px;
+   
+}
+
+.number1 p{
+    margin-left: 10px;
+}
+.driving_skill_content{
+    padding-left: 35px;
+}
+
+.driving_skill_content .number1 p{
+color: var(--main-color-01, #FEE100);
+font-family: Arimo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.driving_skill_content h2{
+    color: #FFF;
+    font-family: Arimo;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+
+}
+.driving_skill_content p{
+
+    color: #FFF;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.driving_skill_email input{
+    border-radius: 0%;
+}
+.driving_skill_email{
+    width: 300px;
+    height: 55px;
+    margin-bottom: 20px;
+}
+.driving_skill_email label{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #40464A;
+    
+    
+}
+.driving_brands{
+    margin-top: 80px;
+    text-align: center;
+   
+}
+.driving_skill_btn{
+    display: inline-flex;
+    padding: 18px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: var(--main-color-01, #FEE100);
+}
+
+.driving_skill_button{
+    color: var(--text-color-01, #141C21);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    text-transform: uppercase;
+}
+.student_list{
+    padding: 50px 77px;
+   
+    margin-top: 180px;
+    margin-bottom: 120px;
+    text-align: center;
+    color: #141C21;
+    position: relative;
+    list-style: none;
+}
+
+.student_list ul{
+    padding: 30px 30px;
+    background-color: orange;
+    list-style: none;
+    margin-right: 0px;
+    padding-right: 30px;
+    position: absolute;
+    left: 31px;
+}
+.student_list ul li{
+    list-style: none;
+}
+.student_list h3{
+    color: var(--text-color-01, #141C21);
+
+/* Heading/H2 */
+font-family: Arimo;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 122.222% */
+}
+
+.student_list p{
+    color: var(--text-color-01, #141C21);
+font-family: Mada;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+}
+
+/* =============Service Section Css End===================== */
+
+
+
+
+
+/* =============IT Work Section Css Start===================== */
+
+
+
+.it_work{
+    margin-top: 120px;
+}
+
+.it_work1{
+   
+
+}
+
+.it_work1 h3{
+    color: var(--text-color-01, #141C21);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; 
+    margin-top: 17px;
+    margin-bottom: 20px;    
+}
+.it_work1 p{
+    
+    color: var(--text-color-02, #3D3D3D);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 35px; 
+}
+.quick_help{
+    padding-top: 30px;
+    width: 370px;
+    height: 120px;
+    background: var(--main-color-01, #FEE100);
+    padding-left: 50px; 
+}
+.it_work2{
+    
+}
+
+.it_work_content {
+    padding-top: 40px;
+    padding-left: 30px;
+    width: 450px;
+    height: 160px;
+    background: var(--text-color-06, #FFF);
+box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
+    
+}
+.number3 {
+    margin-right: 15px;
+    margin-top: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#FFFFFF;
+    border: 1px solid var(--text-color-01, #141C21);
+    opacity: 1;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141C21;
+
+    
+}
+.it_work_img{
+    text-align: center;
+    margin-top: 50px;
+}
+.it_work_middle{
+    margin: 20px 0px;
+}
+.call_icon{
+     
+        margin-top: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #141C21;
+}
+.call_icon h6{
+    color: var(--text-color-02, #3D3D3D);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+/* =============IT Work Section Css End===================== */
+
+
+
+
+/* =============Testimonial Section Css Start===================== */
+
+.testimonial{
+    background: var(--natural-color-01, #F8F8F8);
+    margin-top: 90px;
+    padding: 98px 0px;
+}
+.testimonial_heading p{
+    color: var(--text-color-01, #141C21);
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.testimonial_heading h2{
+    color: var(--text-color-01, #141C21);
+
+    /* Heading/H2 */
+    font-family: Arimo;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; /* 122.222% */
+}
+.testimonial_heading h6{
+    color: var(--text-color-01, #141C21);
+
+    /* Heading/H7 */
+    font-family: Arimo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+.circular-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
+  
+.testimonial_content{
+    position: relative;
+    padding: 0px 50px;
+    height: 318px;
+    flex-shrink: 0;
+    background: var(--text-color-06, #FFF);
+
+}
+.testimonial_contents{
+    position: absolute;
+    right: -30px;
+}
+.testimonial_content_img{
+    text-align: center;
+}
+.testimonial_content_img img{
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+    width: 196px;
+    height: 271px;
+    border-radius: 50%;
+   
+}
+
+.testimonial_content p{
+    margin-top: 60px;
+    width: 369px;
+    height: 130px;
+    color: var(--text-color-02, #3D3D3D);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.testimonial_content h3{
+    color: var(--text-color-01, #141C21);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px; 
+}
+.testimonial_content h6{
+    color: var(--text-color-02, #3D3D3D);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+/* =============Testimonial Section Css End===================== */
+
+
+
+
+
+
+
+/* =============Blog Section Css Start===================== */
+.blog{
+    
+    margin-top: 90px;
+    padding-bottom: 90px;
+}
+.blog_heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.blog_heading h2{
+    color: var(--text-color-01, #141C21);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.blog1 {
+    position: relative;
+}
+.blog2{
+  
+}
+.blog2 img{
+    
+}
+.blog2_content{
+    padding: 30px 20px;
+}
+.blog2_content h3{
+    width: 330px;
+    height: 74px;
+    flex-shrink: 0;
+    color: var(--text-color-01, #141C21);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px; 
+}
+.blog2_content a{
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    color: #141C21;
+    text-align: center;
+    font-family: Arimo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.blog1_date{
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    text-align: center;
+    width: 60px;
+    height: 72px;
+    flex-shrink: 0;
+    background: var(--main-color-01, #FEE100);
+}
+.blog1_date h4 {
+    color: var(--text-color-01, #141C21);
+font-family: Arimo;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 133.333% */
+}
+
+.blog1_date h5 {
+    color: var(--text-color-01, #141C21);
+    font-family: Arimo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 166.667% */
+}
+
+
+
+/* =============Blog Section Css End===================== */
+
+
+
+
+/* =============Community Section Css Start===================== */
+
+.community_cover{
+    
+    background-image: url(../image/cover.png);
+    width: 1000;
+    height: 200px;
+
+}
+.community_content{
+    display: inline-flex; 
+    margin-top: 44px;
+}
+
+
+.community_content h3{
+    color: var(--text-color-06, #FFF);
+
+/* Heading/H2 */
+font-family: Arimo;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 122.222% */
+}
+
+.community_button{
+    display: inline-flex;
+    justify-content: center;
+    background: var(--main-color-01, #FEE100);
+    width: 300px;
+    height: 80px;
+    margin-top: 70px;
+}
+
+
+
+/* =============Community Section Css End===================== */
+
+
+
+
+/* =============Footer Section Css Start===================== */
+.footer{
+    background-color: #141C21;
+    color: #FFF;
+    padding: 100px 0px;
+}
+.footer_info{
+   
+}
+.footer_info h4{
+    color: #FFF;
+    font-size: 22px; 
+    font-weight: 400;
+    line-height: 32px; /* 145.455% */
+}
+.footer_info img{
+
+}
+.footer_info p{
+    color: var(--text-color-04, #D1D1D1);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.footer_social_media{
+    margin-top: 40px;
+    margin-left: -39px;
+}
+.footer_social_media ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.footer_social_media ul li{
+   margin-right: 10px;
+}
+.footer_social_media ul li a{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: gray;
+}
+.footer_social_media ul li a:hover{
+    background-color: #FEE100;
+    color: #F6F6F6;
+}
+.footer_info{
+
+}
+.services_list{
+   margin-top: 20px;
+   list-style: none;
+}
+.services_list li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px; 
+    margin-left: -30px;
+}
+.services_list li a{
+    text-decoration: none;
+    color: #F8F8F8;
+}
+.services_list li a:hover{
+    color: #FEE100;
+}
+
+.services_list button{
+    color: var(--text-color-03, #8B8B8B);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    background: linear-gradient(180deg, #141C21 43.75%, rgba(20, 28, 33, 0.92) 100%);
+}
+.location{
+    display: flex;
+    flex-direction: row;
+}
+.footer_button{
+    background-color: orange;
+}
+.location i{
+    padding: 20px;
+    background-color:gray;
+    border: 1px solid black;
+    height: 50%;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 14px;
+    color: #F6F6F6;
+}
+.location i:hover{
+    background-color: #F6F6F6;
+    color: #000000;
+}
+.location_content{
+
+}
+.location_content h6{
+
+
+}
+.footer_page{
+    list-style: none;
+    display: inline-flex;
+}
+
+.footer_page li{
+
+    margin-right: 15px;
+    border-right: 1px solid black;
+    padding-right: 23px;
+
+
+}
+.footer_page li a{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+/* =============Footer Section Css End===================== */
+
+
+/* ========================================================= 
+   --------------------- ABOUT PAGE CSS -------------------- 
+   -------------------------START---------------------------
+   =========================================================*/
+
+
+
+/* ============ About Section Css Start =================== */
+.about_banner_img{
+    background-image: url(../image/about.png);
+    background-size: cover;
+    height: 300px;
+    
+}
+.about_banner_content{
+    height: 100%;
+    text-align: center;
+    padding: 5.5rem 0rem;
+}
+.about_banner_content:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.9s ease;
+
+}
+.about_banner_content h2{
+    color: #FFF;
+
+/* Heading/H1 */
+font-family: Arimo;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 100px; /* 111.111% */
+}
+.about_banner_content h6{
+    color: #FFF;
+
+/* Heading/H7 */
+font-family: Arimo;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 155.556% */
+}
+.about_company{
+    margin-top: 120px;
+}
+.about_company_top{
+    margin-bottom: 13rem;
+}
+.about_company_left{
+    position: absolute;
+    width: 40%;
+
+
+
+}
+.about_company_right{
+    position: relative;
+    left: 65%;
+    width: 450px;
+}
+
+.about_company_img1{
+      text-align: right;
+      position: absolute;
+      
+      
+}
+
+.about_company_content p{
+    color: var(--text-color-01, #141C21);
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.about_company_content h3{
+    color: var(--text-color-01, #141C21);
+
+    /* Heading/H2 */
+    font-family: Arimo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; /* 122.222% */
+}
+
+.about_company_button{
+    width: 100%;
+}
+.about_company_button button{
+    margin: 20px 0px;
+    width: 48%;
+    height: 60px;
+    border-radius: 0;
+    border: 0.5px solid rgba(0, 0, 0, 0.325);
+    background: var(--main-color-01, #FEE100);
+    
+}
+
+.about_ceo_icon {
+    margin-top: 30px; 
+}
+.about_ceo_icon h5{
+    color: var(--text-color-01, #141C21);
+font-family: Arimo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.about_company_list{
+    margin-left: -30px;
+    list-style: none;
+    text-align: left;
+}
+.about_company_list li{
+    margin: 10px 0px;
+}
+.about_company_list li i{
+    margin-right: 5px;
+}
+.about_company_content li span{
+    color: var(--text-color-02, #3D3D3D);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+.about_company_img2{
+    position: relative;
+    top: 9rem;
+    right: 9rem;
+}
+
+.mission_content ul{
+    margin-top: 30px;
+}
+
+.about_achieve{
+   
+    
+    background: var(--natural-color-01, #F8F8F8);
+}
+.about_achieve_item{
+    margin: 50px 0px;
+    text-align: center;
+
+}
+.about_achieve_item img{
+    border-radius: 100px;
+    background: var(--text-color-06, #FFF);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+
+/* ============ About Section Css End =================== */
+
+
+
+
+/* ============ About Service Section Css Start =================== */
+
+
+.about_company_service{
+    padding: 80px 0px;
+    text-align: center;
+    height: 500px;
+    background: var(--text-color-01, #141C21);
+    margin-bottom: 80px;
+
+}
+.about_service1{
+    color: var(--text-color-05, #F6F6F6);
+    padding: 30px;
+    border: 1px solid black;
+    margin: 40px 0px;
+    text-align: center;
+    
+}
+
+.about_service1:hover {
+    color: var(--text-color-05, #000000);
+    background: var(--main-color-01, #FEE100);
+
+}
+.about_service1 i{
+   
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+.about_service1 h5{
+    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about_service1 p{
+    
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.about_service1 a{
+
+    
+
+}
+
+
+
+
+/* ============ About Service Section Css End =================== */
+
+
+
+
+/* ============ Instructor Section Css Start =================== */
+
+
+.instructor{
+    margin: 80px 0px;
+  
+}
+
+.instructor_items{
+    padding-left: 0px;
+    padding-right: 5px;
+    margin-right: 0px;
+}
+.instructor_item1{
+
+    border-left:1px solid black ;  
+  
+
+}
+.instructor_item2{
+
+    border-left:1px solid black ; 
+    
+
+}
+.instructor_item3{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 380px;
+}
+.instructor h4{
+    color: var(--text-color-01, #141C21);
+    font-family: Arimo;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+.instructor p{
+    text-align: center;
+}
+.middle_item{
+    border-right: none;
+    border-left: none;
+}
+.instructor_bg {
+    margin: 0px 35px;
+    width: 309px;
+    height: 350px;
+    background-image: url(../image/about3.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.instructor_down{
+    margin-top: 30px;
+    
+}
+
+.social-media {
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    left: 15%;
+    transform: translateX(-50%);
+}
+.social-media{
+display: flex;
+flex-direction: column;
+}
+.social-media a {
+    
+ 
+}
+.social-media a i{
+    color: gray;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.social-media a i:hover{
+    color:#FFF;
+    background-color: #FBDF00;
+
+}
+.instructor-name{
+    width: 380px;
+    text-align: center;
+}
+
+.instructor-name h5{
+    color: var(--text-color-01, #141C21);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.instructor-name p{
+    color: var(--text-color-01, #141C21);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+/* ============ Instructor Section Css End =================== */
+
+
+/* ========================================================= 
+   --------------------- ABOUT PAGE CSS -------------------- 
+   -------------------------END---------------------------
+   =========================================================*/
+
+
+
+
+
+
+   /* ========================================================= 
+   --------------------- COURSE PAGE CSS -------------------- 
+   -------------------------START---------------------------
+   =========================================================*/
+
+
+
+
+/* ============ Course Section Css Start =================== */
+.course{
+    margin: 100px 0px;
+    
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.course_item{
+    width: 370px;
+    height: 370px;
+    justify-content: center;
+}
+.course_item img{
+    width: 370px;
+    height: 290px;
+    position: absolute;
+}
+
+.course_item_content{
+    width: 270px;
+    height: 170px;
+    position: relative;
+    top: 150px;
+    border: none;
+    background: var(--text-color-06, #FFF);
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
+    left: 30px;
+}
+.course_item_content h3{
+    color: var(--text-color-01, #141C21);
+font-family: Arimo;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+margin: 15px 0px;
+margin-left: 20px;
+margin-top: 6px;
+}
+.course_item_content span{
+    background-color: #FEE100;
+    padding: 7px;
+    margin: 0px;
+    position: absolute;
+    top: -38px;
+    left: 0px;
+}
+.course_button{
+    width: 270px;
+    color: var(--text-color-01, #141C21);
+    text-align: left;
+    padding-right: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    padding-left: 15px;
+    height: 60px;
+    background-color: #FFF;
+    position: absolute;
+    left: 30px;
+    bottom: -210px;
+    border-radius: 0%;
+}
+.course_button:hover{
+    background-color:#F6C206;
+}
+.course_instructor img {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+.course_instructor h6{
+    text-align: right;
+    margin-right: 20px;
+}
+.course_instructor p{
+    text-align: right;
+    margin-right: 37px;
+}
+
+
+/* ============ Course Section Css End =================== */
+
+
+
+
+/* ============ Pricing Section Css Start =================== */
+.pricing{
+    margin-bottom: 80px;
+}
+.pricing_plans{
+    justify-content: center;
+    display: inline-flex;
+}
+.plan1{
+    padding-left: 35px;
+}
+.pricing_plan h5{
+    
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+} 
+.pricing_plan p{
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.price{
+    display: inline-flex;
+}
+.pricing_plan :hover{
+    color: #F6F6F6;
+    background-color: black;
+}
+
+.price span{
+    
+
+/* Heading/H2 */
+font-family: Arimo;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 122.222% */
+}
+.price h6{
+    margin-top: 26px;
+    margin-left: 5px;
+}
+
+.course_plan{
+    margin-top: 45px;
+    list-style: none;
+    padding-left:0px;
+}
+.course_plan li{
+    margin: 15px 0px;
+}
+.course_plan_button{
+    padding: 15px 25px;
+    background: var(--main-color-01, #FEE100);
+    border-radius: 0;
+    align-items: center;
+    gap: 6px;
+    color: var(--text-color-01, #141C21);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px; /* 200% */
+    text-transform: uppercase;
+    margin: 25px 10px;
+}
+
+
+/* ============ Pricing Section Css End =================== */
+
+/* ========================================================= 
+--------------------- COURSE PAGE CSS -------------------- 
+--------------------------END-----------------------------
+=========================================================*/
+
+
+
+
+/* ========================================================= 
+--------------------- SERVICE PAGE CSS -------------------- 
+--------------------------START-----------------------------
+=========================================================*/
+
+
+
+/* ============ Services Section Css Start =================== */
+.services{
+    margin: 50px 0px;
+}
+.services_item1{
+    text-align: center;
+width: 270px;
+height: 303px;
+color: #060606;
+    padding: 30px;
+    border: 1px solid black;
+    margin: 40px 0px;
+    text-align: center;
+}
+
+
+.services_item1 i{
+   
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.services_item1:hover{
+    color: #F6F6F6;
+    background: var(--text-color-01, #1d2930fb);
+    transition: 1s ease;
+}
+.services_item1:hover i{
+    background: var(--main-color-01, #FEE100);
+    color: white;
+    
+}
+.services_item1:hover a{
+    color:#FEE100 ;
+}
+
+.services_item1 h5{
+
+padding-top: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 11px;
+   
+}
+
+.services_item1 p{
+
+padding-bottom: 6px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+/* ============ Services Section Css End =================== */
+
+
+
+.driving_brand2{
+    margin-bottom: 80px;
+
+}
+.driving_brand2 img{
+    width: 1120px;
+}
+
+/* ========================================================= 
+--------------------- SERVICE PAGE CSS -------------------- 
+--------------------------END-----------------------------
+=========================================================*/
+
+
+
+
+/* ========================================================= 
+--------------------- BLOG PAGE CSS -------------------- 
+--------------------------START-----------------------------
+=========================================================*/
+
+/* ============ Blogger Section Css Start =================== */
+
+.blogger{
+    margin: 80px 0px;
+}
+.blogger_item{
+    width: 755px;
+    height: 650px;
+}
+.blog_info i{
+    margin-right: 10px;
+}
+.blog_info span{
+    margin-right: 20px;
+}
+.blog_img{
+    width: 755px;
+height: 470px;
+position: absolute;
+}
+.blog_img img{
+    width: 100%;
+    height: 100%;
+}
+.blog_content{
+    width: 600px;
+    position: relative;
+    top: 19rem;
+    background: var(--text-color-06, #FFF);
+    color: #060606;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
+    margin: 0px 56px;
+    left: 19px;
+    padding: 33px;
+
+}
+.blog_content h3{
+    color: var(--text-color-01, #1F1E17);
+    margin: 15px 0px;
+font-size: 23px;
+font-weight: 700;
+line-height: 40px; 
+}
+.blog_content p{
+    color: var(--text-color-02, #333334);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.blog_content a{
+    color: var(--text-color-01, #141C21);
+text-align: center;
+font-family: Arimo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+text-decoration-line: underline;
+text-transform: uppercase;
+}
+
+
+.blogger_category ul{
+    border-radius: 0;
+}
+.blogger_recent_post{
+    margin: 20px 0px;
+    border: 1px solid #DCD5D3;
+    padding-left: 40px;
+}
+.blogger_recent_post h3{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.blogger_recent_post hr{
+    width: 32%;
+    height: 4px;
+    background-color: #e3d800;
+    border: none;
+}
+
+.blogger_post{
+    border: none;
+    margin: 15px 0px;
+}
+.blogger_content{
+    margin-top: -20px;    
+}
+.blogger_content h3{
+    
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.blogger_content a{
+    text-decoration: none;
+    color: var(--text-color-01, #141C21);
+}
+.blogger_content p{
+    color: var(--text-color-03, #8B8B8B);
+    /* Tagline/06 */
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+}
+.blogger_content i{
+    color: #F6C206;
+    width: 16px;
+height: 16px;
+font-size: 16px;
+}
+.blogger_content a:hover{
+    text-decoration: underline;
+    color: var(--text-color-01, #141C21);
+    
+}
+/* ============ Blogger Section Css End =================== */
+
+
+
+/* ========================================================= 
+--------------------- BLOG PAGE CSS -------------------- 
+--------------------------END-----------------------------
+=========================================================*/
+
+
+
+
+
+
+/* ========================================================= 
+---------------- COURSE DETAILSS PAGE CSS ------------------ 
+--------------------------START-------------------------------
+=========================================================*/
+
+
+
+
+/* ============ Course Details Page Section Css Start =================== */
+.course_details{
+    margin: 50px 0px;
+}
+.left_cd2{
+    
+}
+.left_img{
+    margin-top: 50px;
+    background-image: url(../image/about1.png);
+    background-size: cover;
+    width: 310px;
+    height: 390px;
+    
+}
+
+
+.right_img img{
+
+    width: 100%;
+    height: 450px;
+
+}
+
+.right_cd{
+
+    border: 1px solid #BBBFC0;
+    background: #FFF;
+
+}
+
+
+
+
+
+
+/* ============ Course Details Page Section Css End =================== */
+
+
+
+/* ========================================================= 
+---------------- COURSE DETAILSS PAGE CSS ------------------ 
+--------------------------END-------------------------------
+=========================================================*/
